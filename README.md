@@ -1,3 +1,11 @@
+# 注意
+
+1,该版本只在win平台测试过
+
+2,需要安装[CUDA Toolkit](https://developer.nvidia.com/cuda-downloads)以使用OpenCL
+
+3,编译环境为VS2022,C++20
+
 # profanity2
 
 Profanity is a high performance (probably the fastest!) vanity address generator for Ethereum. Create cool customized addresses that you never realized you needed! Recieve Ether in style! Wow!

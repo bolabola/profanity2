@@ -3,3 +3,6 @@
 *.so
 cache-opencl.*
 bin
+.vs/
+x64/
+*.vcxproj.user

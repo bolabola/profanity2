@@ -12,6 +12,9 @@
 
 #if defined(__APPLE__) || defined(__MACOSX)
 #include <machine/endian.h>
+#elif defined _WIN64
+#define NOMINMAX
+#include <Winsock2.h>
 #else
 #include <arpa/inet.h>
 #endif
